@@ -23,16 +23,16 @@ article blockquote {
 }
 article .article-title {
   position: relative;
-  color: #212121;
+  color: #07213c;
   font-size: 2.4rem;
   line-height: 1.3;
-  text-align: center;
+  text-align: left;
   margin: 0;
-  padding: 0 2rem;
+  padding: 0 0rem;
 }
 article .article-title a {
   display: block;
-  color: #212121;
+  color: #07213c;
 }
 article .article-title a span {
   padding-bottom: 3px;
@@ -41,7 +41,7 @@ article .article-title a span {
   box-shadow: inset 0 -2px 0 rgba(240,56,56,0);
 }
 article .article-title a:hover {
-  color: #212121;
+  color: #07213c;
 }
 article .article-title a:hover span {
   box-shadow: inset 0 -2px 0 rgba(240,56,56,0.4);
@@ -49,12 +49,12 @@ article .article-title a:hover span {
 article .article-top-meta {
   position: relative;
   color: #9e9e9e;
-  font-size: 1.3rem;
-  text-align: center;
-  margin: 1rem 0;
+  font-size: 1.6rem;
+  text-align: left;
+  margin: 0 0;
 }
 article .article-top-meta span {
-  margin: 0 0.5rem;
+  margin: 0 0rem;
 }
 article .article-top-meta a {
   color: #9e9e9e;
@@ -192,16 +192,16 @@ article table pre {
 }
 @media (prefers-color-scheme: dark) {
   article {
-    color: #212121;
+    color: #07213c;
   }
   article .article-title {
-    color: #212121;
+    color: #07213c;
   }
   article .article-title a {
-    color: #212121;
+    color: #07213c;
   }
   article .article-title a:hover {
-    color: #212121;
+    color: #07213c;
   }
   article .article-excerpt,
   article .article-content,

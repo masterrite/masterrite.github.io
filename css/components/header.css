@@ -4,7 +4,7 @@ header {
 header .site-branding {
   text-align: center;
   margin-bottom: 2rem;
-  font-family: "Apple Chancery", italic;
+  font-family: "Apple Chancery";
   letter-spacing: 0.1em;
 text-transform
 }
@@ -15,7 +15,7 @@ header .site-branding .site-title {
 header .site-branding .site-title a {
   display: inline-block;
   color: #072142;
-  font-weight: bolder;
+  font-weight: light;
   background-color: false;
   line-height: 3rem;
   height: 3rem;
