@@ -473,7 +473,7 @@ header {
 header .site-branding {
   text-align: center;
   margin-bottom: 2rem;
-  font-family: "Apple Chancery";
+  font-family: "Apple Chancery", "URW Chancery L", "Monotype Corsiva", mtcorsva;
   letter-spacing: 0.1em;
 text-transform
 }
@@ -1190,4 +1190,10 @@ pre .deletion {
   article {
     padding: 2.5rem 0 !important;
   }
+}
+@font-face {
+  font-family: 'mtcorsva';
+  src: url("../fonts/mtcorsva.woff") format('woff');
+  font-weight: normal;
+  font-style: normal;
 }
