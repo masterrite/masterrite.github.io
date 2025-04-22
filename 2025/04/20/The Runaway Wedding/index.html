@@ -69,7 +69,9 @@
   
   <title>The Runaway Wedding - In Otherworlds</title>
 
-<meta name="generator" content="Hexo 6.3.0"></head>
+<meta name="generator" content="Hexo 6.3.0"><link rel="stylesheet" href="\assets\css\APlayer.min.css" class="aplayer-style-marker">
+<script src="\assets\js\APlayer.min.js" class="aplayer-script-marker"></script>
+</head>
 
 <body>
   <div class="scrollPercentage"></div>
@@ -485,9 +487,26 @@
 #
 </center>
 
-			<script>
-				console.error("Error: [hexo-tag-aplayer] Specified asset file not found (coverart.jpg)");
-			</script>
+        <div id="aplayer-obuzXYGe" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-obuzXYGe"),
+            narrow: false,
+            autoplay: true,
+            showlrc: false,
+            music: {
+              title: "The Runaway Wedding",
+              author: "Egoist",
+              url: "Departure.mp3",
+              pic: "/2025/04/20/The%20Runaway%20Wedding/cover.jpg",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
 <p>Thunder thunders down the street and up the highway. Cars drop behind us one by one until we are the only left. Ankang lets go of the door handle and his seat and sighs. He sinks into the seat and presses the stereo. <em>Departure</em> from the EGOIST floats out. The whistle from the turbo quiets down. I look out of the window. The sea is calm today.</p>
 <p>"Sun Yifan, I thought you didn't have your license yet!" Xiaoqiao says.</p>
 <p>"Still drives better than Liuy," Lily holds onto Xiaoqiao's arm and wiggles. "And he's actually an 8 out of 10."</p>
